@@ -1,0 +1,48 @@
+<form action="proces.php" method="post">
+    <p>Please Register</p>
+
+    <ol>
+        <li>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+        </li>
+
+        <li>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+        </li>
+
+        <li>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </li>
+        <li>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </li>
+
+        <li>
+            <label for="PW_confirm">PW Confirm:</label>
+            <input type="password" id="PW_confirm" name="PW_confirm">
+        </li>
+        <li>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </li>
+    </ol>
+
+    <p>Select your gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+
+    <label for="decline">Decline</label>
+    <input type="radio" id="decline" name="gender" value="decline">
+    <br>
+    <p>please write a short desrcription about yourself</p>
+    <textarea name="description"></textarea>
+
+    <input type="submit" value="Submit">
+</form>
